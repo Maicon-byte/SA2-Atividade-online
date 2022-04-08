@@ -1,0 +1,133 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #040404;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 35px;
+}
+
+.banner {
+    width: 1200px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.text-banner {
+    color: white;
+}
+.text-banner h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.text-banner h3{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.conteudo-site {
+    height: 400px;
+    display: flex;
+   /* flex-wrap: wrap;
+    align-content: flex-start;*/
+    justify-content:space-between
+}
+.texto-site {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto-site h1 {
+    color: white;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+/*Formulario*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+    color: rgb(8, 8, 8);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .login {
+    border-radius: 30px;
+    background-color: rgb(87, 86, 86);
+    color: rgb(196, 196, 196);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px;
+  }
